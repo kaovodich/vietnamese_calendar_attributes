@@ -23,6 +23,13 @@ A comprehensive Dart/Flutter package that extends `vietnamese_lunar_core` with V
 
 ## 📦 Installation
 
+### Requirements
+
+- Dart SDK: `^3.3.0` or higher
+- Flutter: `>=1.17.0` (if using Flutter)
+
+### Setup
+
 Since this package is currently hosted on GitHub (not yet published to pub.dev), add it to your `pubspec.yaml` using the `git` dependency:
 
 ```yaml
@@ -214,11 +221,24 @@ dart test
 
 ## 📝 License
 
-[Add your license here]
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📋 Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for a list of changes and version history.
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please ensure all tests pass before submitting a pull request.
+Contributions are welcome! To contribute:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Make your changes and ensure all tests pass (`dart test`)
+4. Commit your changes (`git commit -m 'Add some amazing feature'`)
+5. Push to the branch (`git push origin feature/amazing-feature`)
+6. Open a Pull Request
+
+Please ensure all tests pass and code follows the existing style before submitting.
 
 ## 🔗 Related Packages
 
@@ -226,7 +246,9 @@ Contributions are welcome! Please ensure all tests pass before submitting a pull
 
 ## 📧 Support
 
-For issues, questions, or contributions, please open an issue on the GitHub repository.
+- **Issues**: Report bugs or request features by opening an [issue](https://github.com/kaovodich/vietnamese_calendar_attributes/issues) on GitHub
+- **Questions**: Use GitHub Discussions or open an issue with the `question` label
+- **Contributions**: See the [Contributing](#-contributing) section above
 
 ---
 
