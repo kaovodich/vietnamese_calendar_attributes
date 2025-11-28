@@ -1,0 +1,17 @@
+name: vietnamese_calendar_attributes
+description: Vietnamese cultural attribute utilities for lunar dates.
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: ^3.3.0
+
+dependencies:
+  vietnamese_lunar_core:
+    git:
+      url: https://github.com/kaovodich/kaovodich_vietnamese_lunar_core.git
+      ref: master
+
+dev_dependencies:
+  lints: ^5.1.0
+  test: ^1.25.2
